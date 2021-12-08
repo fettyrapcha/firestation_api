@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi
+web: gunicorn Firestation_api.wsgi
