@@ -18,5 +18,5 @@ class StudentViewSet(viewsets.ModelViewSet):
                                username=username,
                                location=location,
                                report=report)
-        return HttpResponse({'feedbook': "information sent successdfully"},
+        return HttpResponse({'feedback': "information sent successdfully"},
                             status=200)
